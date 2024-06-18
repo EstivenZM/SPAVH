@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
 *{
     margin: 0;
     padding:0;
@@ -140,8 +142,9 @@ form {
 
 .contenedor-formulario .texto h1{
     color: #C79E42;
-    font-family: "Pattaya", sans-serif;
+    font-family: "Carattere", cursive;
     font-weight: normal;
+    font-size: 90px;
     
 }
 .formulario {
