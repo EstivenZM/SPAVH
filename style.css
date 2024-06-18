@@ -74,29 +74,87 @@ header .reserva-ahora, .iniciar-sesion, button:hover{
 .contenedor-general{
     display: flex;
     justify-content: space-around;
-}
-
-h1{
-    font-family: Arial, Helvetica, sans-serif
-}
-
-.contenedor-general .contenedor-texto .texto-claro{
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.7
-}
-
-.contenedor-general .contenedor-texto .texto-largo{
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.contenedor-general .contenedor-texto{
-    width: 40%;
-}
-
-.contenedor-general{
     margin-top: 10%;
     margin-bottom: 10%;
+    
+}
+
+.contenedor-formulario{
+    width: 40%;
+    
+    float: right;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.contenedor-general .contenedor-formulario .texto-claro{
+    opacity: 0.7;
+}
+
+.contenedor-general .contenedor-formulario h1{
+    color: #C79E42;
+    font-family: "Pattaya", sans-serif;
+    font-weight: normal;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    background-color: #FFD0D0;
+    color: #d4a017;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.form-group button:hover {
+    background-color: #FFD0D0;
+}
+.form-group input:focus {
+    border-color: #FFD0D0; /* Cambia a un borde azul cuando el input está enfocado */
+    outline: none; /* Elimina el outline por defecto */
+}
+
+.contenedor-formulario .texto h1{
+    color: #C79E42;
+    font-family: "Pattaya", sans-serif;
+    font-weight: normal;
+    
+}
+.formulario {
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+.contenedor-imagen img{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
 }
 
 footer{
