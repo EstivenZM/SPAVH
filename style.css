@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 *{
     margin: 0;
-    padding:0;
-    
+    padding:0;   
 }
 
 header{
@@ -17,7 +16,6 @@ header{
     }   
 .reserva-ahora, .iniciar-sesion{
     font-family: "Pattaya", sans-serif;
-    
 }
 
 header .logo img{
@@ -47,8 +45,7 @@ header .nav-links a{
     font-size: 700;
     color: #C79E42;
     text-decoration: none;
-    font-family: "Pattaya", sans-serif;
-    
+    font-family: "Pattaya", sans-serif;   
 }
 
 header .nav-links li:hover{
@@ -63,10 +60,69 @@ header .reserva-ahora, .iniciar-sesion, button{
     height: 30px;
     width: 90px;
     font-family: "Pattaya", sans-serif;
+    font-size: 14px;
     cursor: pointer;
     transition: all 0.3s;
 }
 
 header .reserva-ahora, .iniciar-sesion, button:hover{
     transform: scale(1.2);
+}
+
+.servicios{
+    margin-top: 30px;
+}
+
+
+.textoServicios{
+    margin-bottom: 30px;
+}
+
+.row{
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.imgcorporal{
+    margin-top: 10px;
+}
+
+.imggluteos{
+    margin-top: 10px;
+}
+
+.imgfacial{
+    margin-top: 10px;
+}
+
+.imgcauterizacion{
+    margin-top: 10px;
+}
+
+.imgarañitas{
+    margin-top: 10px;
+}
+
+.imghidro{
+    margin-top: 10px;
+}
+
+.botonn1{
+    background-color: #FFD0D0;
+    color: #C79E42;
+    border-radius: 5px;
+    margin-left: 14px;
+}
+
+.textoreserva{
+    font-size: 14px;
+    margin-top: 3px;
+    font-family: "Pattaya", sans-serif;
+}
+
+.footer1{
+    background-color: #FFD0D0;
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
 }
