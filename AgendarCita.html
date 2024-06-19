@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA VH</title>
+    <link rel="stylesheet" href="EstiloAgendarCita.css">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header class="header">
+        <div class="logo">
+            <img src="ImagenesAgendarCita/logo-flor-de-loto.png" alt="Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Contactenos</a></li>
+            </ul>
+        </nav>
+        <a class="reserva-ahora" href=""><button>Reserva ahora</button></a>
+        <a class="iniciar-sesion" href=""><button>Iniciar Sesion</button></a>
+    </header>
+
+
+    <div class="contenedor-general">
+        <div class="contenedor-formulario">
+            <div class="texto">
+                <h1>Agenda tu cita!</h1>
+                <p><span class="texto-claro">Regístrate para poder acceder a los diferentes beneficios</span></p>
+            </div>
+            <div class="formulario">
+
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo_documento">Correo</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="numero_documento">Telefono</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Fecha y hora</label>
+                        <input type="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="contrasena">Servicio solicitado</label>
+                        <select id="metodo-pago" name="metodo_pago">
+                            <option value="Nequi">Facial</option>
+                            <option value="Efectivo">Corporal</option>
+                            <option value="Bancolombia">Masaje</option>
+
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="celular">Alergias</label>
+                        <select id="metodo-pago" name="metodo_pago">
+                            <option value="Nequi">Ácaros del polvo</option>
+                            <option value="Efectivo">Jabones</option>
+                            <option value="Bancolombia">Champús</option>
+                            <option value="Bancolombia">Ninguno</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="fecha_nacimiento">Metodo de pago</label>
+                        <select id="metodo-pago" name="metodo_pago">
+                            <option value="Nequi">Nequi</option>
+                            <option value="Efectivo">Efectivo</option>
+                            <option value="Bancolombia">Bancolombia</option>
+                        </select>
+                    </div>
+                    <div class="form-group1">
+                        <button type="submit">Agendar</button>
+                    </div>
+                    <div class="terminos-condiciones">
+                        <input type="checkbox">
+                        <label for="">Acepta los terminos y condiciones</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for="">Aceptación de la política de cancelación y reprogramación de citas
+                        </label>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
