@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    
+}
+body{
+    background: url('ImagenesAgendarCita/FondoAgendar.jpg') no-repeat center center fixed; /* Imagen de fondo */
+    background-size: cover; /* Cubrir todo el fondo */
+    
+}
+
+header{
+        font-family: "Pattaya", sans-serif;
+        font-style: normal;
+        background-color: #FFEEEE;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        padding: 5px 10%;
+    }   
+.reserva-ahora, .iniciar-sesion{
+    font-family: "Pattaya", sans-serif;
+    
+}
+
+header .logo img{
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+header .logo{
+    cursor: pointer;
+}
+header .logo img:hover{
+    transform: scale(1.2);
+}
+
+header .nav-links{
+    list-style: none;
+}
+
+header .nav-links li{
+    display: inline-block;
+    padding:0 20px ;
+    transition: all 0.3s;
+}
+
+header .nav-links a{
+    font-size: 700;
+    color: #C79E42;
+    text-decoration: none;
+    font-family: "Pattaya", sans-serif;
+    
+}
+
+header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+header .reserva-ahora, .iniciar-sesion, button{
+    color: #C79E42;
+    background-color: #FFD0D0;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    font-family: "Pattaya", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+header .reserva-ahora, .iniciar-sesion, button:hover{
+    transform: scale(1.2);
+}
+
+.contenedor-general{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+.contenedor-formulario{
+    width: 40%;
+    
+    float: right;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.contenedor-general .contenedor-formulario .texto-claro{
+    opacity: 0.7;
+}
+
+.contenedor-general .contenedor-formulario h1{
+    color: #C79E42;
+    font-family: "Pattaya", sans-serif;
+    font-weight: normal;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-group button {
+    background-color: #FFD0D0;
+    color: #d4a017;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    
+}
+
+.form-group{
+    justify-content: center;
+}
+
+.form-group button:hover {
+    background-color: #FFD0D0;
+}
+
+.form-group input:focus {
+    border-color: #FFD0D0; /* Cambia a un borde rosado cuando el input está enfocado */
+    outline: none; /* Elimina el outline por defecto */
+}
+
+.contenedor-formulario .texto h1{
+    color: #C79E42;
+    font-family: "Carattere", cursive;
+    font-weight: normal;
+    font-size: 90px;
+    
+}
+.formulario {
+    
+    padding: 20px 20px;
+    margin-top: 30px;
+    
+    
+}
+.contenedor-imagen img{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+
+footer{
+    background: linear-gradient(to right, #FAB0A2, #FEE2E0); 
+    color: white; 
+    padding: 20px; 
+    width: 100%; 
+    height: 170px;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.texto{
+    text-align: center;
+}
+
+.contenedor-formulario{
+    background-color: #ffeeeed8;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.548);
+    width: 50%;
+    padding: 20px;
+}
+
+select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+.form-group1{
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-around;
+}
+
+.form-group1 .terminos-condiciones{
+    background-color: mediumturquoise;
+
+}
