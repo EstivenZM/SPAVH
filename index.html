@@ -1,26 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPA VH</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPA VH</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="imagenes/logo-flor-de-loto.png" type="image/x-icon">
 </head>
+
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="imagenes/logo-flor-de-loto.png" alt="Logo">
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Quienes somos</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Contactenos</a></li>
-            </ul>
-        </nav>
-        <a class="reserva-ahora" href=""><button>Reserva ahora</button></a>
-        <a class="iniciar-sesion" href=""><button>Iniciar Sesion</button></a>
-    </header>
+  <header class="header">
+    <div class="logo">
+      <img src="imagenes/logo-flor-de-loto.png" alt="Logo">
+    </div>
+    <div class="titulo">
+      <a href="#">SPA Veronica Hernandez</a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Quienes somos</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contactenos</a></li>
+      </ul>
+    </nav>
+    <a class="reserva-ahora" href="#"><button>Reserva ahora</button></a>
+    <a class="iniciar-sesion" href="#"><button>Iniciar Sesion</button></a>
+  </header>
+  <section>
+    <div class="video">
+      <video id="video-background" autoplay muted loop>
+        <source src="imagenes/home.mp4" type="video/mp4">
+    </div>
+  </section>
+  <section class="introduction">
+    <h2>Bienvenido a nuestro spa</h2>
+    <h3>Veronica Hernandez</h3>
+    <p>En Spa Verónica Hernández, ofrecemos una amplia gama de servicios de relajación y belleza, diseñados para
+      brindarle un espacio perfecto para su descanso y renovación tanto espiritual como física. Nuestro personal
+      altamente calificado y con vasta experiencia se dedica a proporcionar un servicio de calidad excepcional.
+      Utilizamos productos naturales para maximizar los beneficios de nuestros tratamientos y terapias, garantizando una
+      experiencia rejuvenecedora.</p>
+    <p>En Spa Verónica Hernández, le ofrecemos una variedad de servicios de relajación y estética, que incluyen masajes,
+      tratamientos faciales, terapias reductoras, depilación y mucho más. Con más de años de experiencia en el mercado,
+      nuestra principal meta es satisfacer los deseos y necesidades de nuestros clientes, ofreciéndoles servicios en el
+      más alto nivel de profesionalismo.</p>
+    <p>Trabajamos incansablemente para que nuestros clientes logren complementarse las expectativas del servicio que
+      buscan, ya sea para ellos mismos o para sus seres queridos. Visítenos y descubra cómo podemos ayudarle a alcanzar
+      el máximo bienestar y belleza.</p>
+  </section>
+  <section class="services">
+    <h2>Servicios más vendidos</h2>
+    <div class="service-item">
+      <img src="imagenes/TM.jpg" alt="Tratamientos Faciales">
+      <p>Tratamientos Faciales</p>
+    </div>
+    <div class="service-item">
+      <img src="imagenes/MS.jpg" alt="Masajes Relajantes">
+      <p>Masajes Relajantes</p>
+    </div>
+    <div class="service-item">
+      <img src="imagenes/TR.jpg" alt="Terapias Reductoras">
+      <p>Terapias Reductoras</p>
+    </div>
+    <div class="service-item">
+      <img src="imagenes/DP.jpg" alt="Depilación">
+      <p>Depilación</p>
+    </div>
+  </section>
+  <section class="blog">
+    <h2>Aprende a cuidarte con nuestro <strong>Blog</strong></h2>
+    <p>En un mundo donde el estrés y la rutina diaria pueden afectar nuestra salud y bienestar, es fundamental dedicar
+      tiempo y esfuerzo a los cuidados personales. No solo se trata de mantener una apariencia agradable, sino también
+      de promover una salud integral que abarque tanto el cuerpo como la mente. En este blog, exploraremos diversas
+      áreas de los cuidados personales y cómo pueden contribuir a una vida más saludable y plena.</p>
+    <div class="blog-posts">
+      <div class="post">
+        <img src="imagenes/CD.jpg" alt="Cuidado de la Piel">
+        <h3>Cuidado de la Piel</h3>
+        <a href="#">Ver más.</a>
+      </div>
+      <div class="post">
+        <img src="imagenes/BME.webp" alt="Bienestar Mental y Emocional">
+        <h3>Bienestar Mental y Emocional</h3>
+        <a href="#">Ver más.</a>
+      </div>
+      <div class="post">
+        <img src="imagenes/EF.webp" alt="Alimentación y Ejercicio Físico">
+        <h3>Alimentación y Ejercicio Físico</h3>
+        <a href="#">Ver más.</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <img src="imagenes/logo-flor-de-loto.png" alt="Logo SPA">
+    <p>&copy; 2024 SPA Veronica Hernandez. Todos los derechos reservados.</p>
+    <p><a href="#">Política de Privacidad</a> | <a href="#">Términos de Servicio</a></p>
+    <div class="social-media">
+      <a href="#"><img src="imagenes/Facebook.jpg" alt="Facebook"></a>
+      <a href="#"><img src="imagenes/tiktok-5962992_960_720.webp" alt="Tik Tok"></a>
+      <a href="#"><img src="imagenes/Instagram_logo_2022.svg.png" alt="Instagram"></a>
+    </div>
+  </footer>
 </body>
 </html>
