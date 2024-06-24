@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA VH</title>
+    <link rel="stylesheet" href="administrador1.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="imagenes/logo-flor-de-loto.png" alt="Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Contactenos</a></li>
+            </ul>
+        </nav>
+        <a class="reserva-ahora" href=""><button>Reserva ahora</button></a>
+        <a class="iniciar-sesion" href=""><button>Iniciar Sesion</button></a>
+    </header>
+
+    <div class="sidebar">
+        <div class="logo-barra">
+            <img src="imagenes/logo-flor-de-loto.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <h3>Datos</h3>
+            <a href="#registrar">Registrar</a>
+            <a href="#actualizar">Actualizar y eliminar</a>
+            <a href="#contacto">Contáctenos</a>
+            <h3>Agendas</h3>
+            <a href="#citas-nuevas">Citas nuevas</a>
+            <a href="#citas-pendientes">Citas pendientes</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="formulario-administrador">
+            
+            <form action="">
+                <h2>Registrar nuevo administrador</h2>
+                <label for="">Nombre</label>
+                <input type="text">
+                <label for="">Apellidos</label>
+                <input type="text">
+                <label for="">Tipo documento</label>
+                <select name="" id="">
+                    <option value="">C.C</option>
+                    <option value="">T.I</option>
+                </select>
+                <label for="">Numero de documento</label>
+                <input type="number">
+                <label for="">Correo electronico</label>
+                <input type="email">
+                <label for="">Contraseña</label>
+                <input type="password">
+                <label for="">Celular</label>
+                <input type="tel">
+                <label for="">Fecha de nacimiento</label>
+                <input type="date">
+                <label for="">Perfil</label>
+                <select name="" id="">
+                    <option value="">Usuario</option>
+                    <option value="">Administrador</option>
+                </select>
+                <button>Registrar</button>
+            </form>
+        </div>
+        <div class="formulario-servicio">
+            <h2>Registrar nuevo servicio</h2>
+            <form action="">
+                <label for="">Nombre</label>
+                <input type="text">
+                <label for="">Precio</label>
+                <input type="number">
+                <label for="">Tiempo estimado</label>
+                <input type="number">
+                <label for="">Descripcion</label>
+                <input type="text">
+                <label for="">Imagen</label>
+                <input type="file">
+                <button>Registrar</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
