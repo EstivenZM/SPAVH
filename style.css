@@ -1,212 +1,171 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin: 0;
+    padding:0;
+    
 }
 
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
+header{
+        font-family: "Pattaya", sans-serif;
+        font-style: normal;
+        background-color: #FFEEEE;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        padding: 5px 10%;
+    }   
+.reserva-ahora, .iniciar-sesion{
+    font-family: "Pattaya", sans-serif;
+    
 }
 
-header {
-  font-family: "Pattaya", sans-serif;
-  font-style: normal;
-  background-color: #FFEEEE;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  padding: 2px 5%;
+header .logo img{
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
 }
 
-.reserva-ahora,
-.iniciar-sesion {
-  font-family: "Pattaya", sans-serif;
+header .logo{
+    cursor: pointer;
+}
+header .logo img:hover{
+    transform: scale(1.2);
 }
 
-header .logo img {
-  height: 80px;
-  width: auto;
-  transition: all 0.3s;
+header .nav-links{
+    list-style: none;
 }
 
-header .logo {
-  cursor: pointer;
+header .nav-links li{
+    display: inline-block;
+    padding:0 20px ;
+    transition: all 0.3s;
 }
 
-header .logo img:hover {
-  transform: scale(1.2);
+header .nav-links a{
+    font-size: 700;
+    color: #C79E42;
+    text-decoration: none;
+    font-family: "Pattaya", sans-serif;
+    
 }
 
-header a {
-  color: #C79E42;
+header .nav-links li:hover{
+    transform: scale(1.1);
 }
 
-header .nav-links {
-  list-style: none;
+header .reserva-ahora, .iniciar-sesion, button{
+    color: #C79E42;
+    background-color: #FFD0D0;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    font-family: "Pattaya", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
-header .nav-links li {
-  display: inline-block;
-  padding: 0 20px;
-  transition: all 0.3s;
+header .reserva-ahora, .iniciar-sesion, button:hover{
+    transform: scale(1.2);
 }
 
-header .nav-links a {
-  color: #C79E42;
-  text-decoration: none;
-  font-family: "Pattaya", sans-serif;
+.contenedor-general{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
 }
 
-header .nav-links li:hover {
-  transform: scale(1.1);
+.contenedor-formulario{
+    width: 40%;
+    
+    float: right;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header .reserva-ahora,
-.iniciar-sesion,
-button {
-  color: #C79E42;
-  background-color: #FFD0D0;
-  border: none;
-  border-radius: 5px;
-  height: 30px;
-  width: 90px;
-  font-family: "Pattaya", sans-serif;
-  cursor: pointer;
-  transition: all 0.3s;
+
+
+.contenedor-general .contenedor-formulario .texto-claro{
+    opacity: 0.7;
 }
 
-header .reserva-ahora,
-.iniciar-sesion,
-button:hover {
-  transform: scale(1.2);
+.contenedor-general .contenedor-formulario h1{
+    color: #C79E42;
+    font-family: "Pattaya", sans-serif;
+    font-weight: normal;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-#video-background {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
+.form-group {
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
 }
 
-.introduction,
-.services,
-.blog {
-  margin: 20px auto;
-  padding: 20px;
-  max-width: 1200px;
-  font-family: "Pattaya", sans-serif;
-  background-color: #FFEEEE;
+.form-group label {
+    margin-bottom: 5px;
 }
 
-.introduction h2,
-.services h2,
-.blog h2 {
-  font-size: 1.5em;
-  color: #C79E42;
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-.introduction p,
-.services p,
-.blog p {
-  font-size: 1em;
-  color: #333;
-  margin-bottom: 20px;
+.form-group button {
+    background-color: #FFD0D0;
+    color: #d4a017;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    
 }
 
-.services {
-  text-align: center;
-
+.form-group button:hover {
+    background-color: #FFD0D0;
+}
+.form-group input:focus {
+    border-color: #FFD0D0; /* Cambia a un borde azul cuando el input está enfocado */
+    outline: none; /* Elimina el outline por defecto */
 }
 
-.service-item {
-  display: inline-block;
-  margin: 10px;
-  text-align: center;
+.contenedor-formulario .texto h1{
+    color: #C79E42;
+    font-family: "Carattere", cursive;
+    font-weight: normal;
+    font-size: 90px;
+    
+}
+.formulario {
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+.contenedor-imagen img{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
 }
 
-.service-item img {
-  width: 250px;
-  height: 300px;
-  border-radius: 5px;
-}
-
-.service-item p {
-  font-size: 1em;
-  color: #C79E42;
-  margin-top: 10px;
-}
-
-.blog-posts {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.blog-posts .post {
-  width: 30%;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.blog-posts .post img {
-  width: 280px;
-  height: 300px;
-  border-radius: 5px;
-}
-
-.blog-posts .post h3 {
-  margin: 10px 0;
-  font-size: 1.2em;
-  color: #C79E42;
-}
-
-.blog-posts .post a {
-  text-decoration: none;
-  color: #C79E42;
-  font-weight: bold;
-}
-
-footer {
-  background-color: #FFEEEE;
-  padding: 20px;
-  text-align: center;
-}
-
-footer img {
-  height: 50px;
-  width: auto;
-  margin-bottom: 10px;
-}
-
-footer p {
-  margin: 5px 0;
-  color: #C79E42;
-}
-
-footer a {
-  text-decoration: none;
-  color: #C79E42;
-  font-weight: bold;
-  margin: 0 10px;
-}
-
-footer .social-media {
-  margin-top: 10px;
-}
-
-footer .social-media a {
-  margin: 0 10px;
-}
-
-footer .social-media img {
-  height: 30px;
-  width: auto;
-  transition: transform 0.3s;
-}
-
-footer .social-media img:hover {
-  transform: scale(1.2);
+footer{
+    background: linear-gradient(to right, #FAB0A2, #FEE2E0); 
+    color: white; 
+    padding: 20px; 
+    width: 100%; 
+    height: 170px;
+    bottom: 0;
+    box-sizing: border-box;
 }
